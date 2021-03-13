@@ -1,5 +1,5 @@
 variable "datacenter" {
-  type        = "string"
+  type        = string
   description = "The datacenter to deploy the virtual machines to."
 }
 
@@ -8,17 +8,17 @@ variable "resource_pool" {
 }
 
 variable "datastore" {
-  type        = "string"
+  type        = string
   description = "The datastore to deploy the virtual machines to."
 }
 
 variable "network" {
-  type        = "string"
+  type        = string
   description = "The network to deploy virtual machines to."
 }
 
 variable "vm_name_prefix" {
-  type        = "string"
+  type        = string
   description = "The prefix to use for virtual machines created with this module."
 }
 
